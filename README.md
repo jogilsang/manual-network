@@ -5,6 +5,11 @@ for me
 서브넷 계산기  
 http://jodies.de/ipcalc?host=12.34.16.0&mask1=23&mask2=  
 
+### 네트워크 DNS 캐시 초기화  
+arp -d  
+ipconfig /flushdns  
+netsh winsock reset  
+
 
 ### 보안
 utube 차단  
